@@ -1,6 +1,10 @@
 '''
 These testing functions were called on the model, after
 fine-tuning on different permutations of training samples
+
+Note: Effort Score was mainly done by computing the fine-tuning 
+with different example permutations and looking at how much the 
+fine-tuning cost changed on my Open AI API dashboard, per training sample.
 '''
 
 
